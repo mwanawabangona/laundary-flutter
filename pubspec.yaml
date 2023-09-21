@@ -1,0 +1,100 @@
+name: dry_cleaners
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 0.0.9+9
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  #Design
+  flutter_screenutil: ^5.5.3+2
+  #State management
+  flutter_riverpod: ^1.0.4
+  #Api Handling
+  dio: ^4.0.6
+  pretty_dio_logger: ^1.2.0-beta-1
+  freezed_annotation: ^2.0.3
+  #Form
+  flutter_form_builder: ^7.3.1
+  form_builder_validators: ^8.1.1
+  #Local DataBase
+  hive_flutter: ^1.1.0
+  #Routing
+  page_transition: ^2.0.9
+  #Misc
+  flutter_svg: ^1.1.0
+  intl: ^0.17.0
+  flutter_easyloading: ^3.0.5
+  carousel_slider: ^4.1.1
+  logger: ^1.1.0
+  pin_code_fields: ^7.4.0
+  animated_bottom_navigation_bar: ^1.0.0
+  expandable: ^5.0.1
+  flutter_stripe: ^7.0.0
+  flutter_rating_bar: ^4.0.1
+  collection: ^1.16.0
+  image_picker: ^0.8.5+3
+  flutter_html: ^3.0.0-alpha.5
+  table_calendar: ^3.0.6
+  url_launcher: ^6.1.5
+  upgrader: ^4.6.1
+  flutter_launch: ^0.3.0
+  cached_network_image: ^3.2.3
+  firebase_core: ^2.9.0
+  firebase_messaging: ^14.4.1
+  flutter_local_notifications: ^14.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  freezed: ^2.0.3+1
+  lint: ^1.8.2
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+flutter_intl:
+  enabled: true
